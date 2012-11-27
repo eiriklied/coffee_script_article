@@ -1,0 +1,18 @@
+Hei Jonas!
+
+Sender over et lite abstract på det vi tenker å skrive om.
+
+Forfattere: 
+Eirik Lied, Jøran Vagnby Lillesand
+
+Tema: 
+CoffeeScript
+
+Abstract:
+Hva er CoffeeScript - og hva kan det brukes til. Vi viser eksempler på forskjellen mellom CoffeeScript og JavaScript og forklarer hvilke fordeler dette gir. Videre diskuterer vi modenheten og hvorvidt CoffeeScript er klart for å tas i bruk på norske enterprise-prosjekter.
+
+Nivå:
+Vi skriver for et publikum som er godt kjent med JavaScript og dets utfordringer, men som ikke er så veldig bevandret i alternativene som finnes.
+
+MVH
+Jøran
