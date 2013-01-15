@@ -104,9 +104,14 @@ In Norway, both our projects in different parts of Posten Norge allow and encour
 In terms of adoption and maturity, you will not be alone in relying on CoffeeScript for your production code. Others also rely heavily upon it!
 
 ## Drawbacks
-  - Another technology in your portfolio
-  - Debugging can be more difficult (source maps)
-  - Needs to fit into your build process
+
+There are some backsides to introducing a new language in your enterprise project.
+
+First, there is the cost of knowledge. Each time you introduce a new technology, it represents another skill your team will need to maintain over time. In this case, the cost shouldn't be too bad, as CoffeeScript is similar too JavaScript. In any case, you may choose to compile it to JavaScript and maintain it as such.
+
+Using a compiled language will make using a debugger harder, as you will be debugging the compiled code. There are initiatives underway to make a source mapper for CoffeeScript, which will allow debugging CoffeeScript directly, but as of writing nothing has been released.
+
+Lastly, you will need to fit CoffeeScript into your build process. This will be discussed in the following section.
 
 ## Fitting it into your build process
   - Wro4J
