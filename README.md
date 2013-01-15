@@ -17,11 +17,13 @@ Enter CoffeeScript. CoffeeScript is one of several languages to emerge the recen
 
 ## Maturity
 
-CoffeeScript has been gaining strong momentum the last few years. It has been the standard client code language in the widely used Ruby on Rails framework as of 3.1 released in August 2011. The popular distributed version control hosting provider GitHub state that all new JavaScript must be written in CoffeeScript.
+CoffeeScript has been gaining strong momentum the last few years. Out of more than 2700 respondents in the annual JavaScript Developer Survey, 29% use a language that compile to JavaScript. Of these languages, CoffeeScript is by far the most popular, used by 82%.
+
+CoffeeScript has been the standard client code language in the widely used Ruby on Rails framework as of 3.1 released in August 2011. The popular distributed version control hosting provider GitHub state that all new JavaScript must be written in CoffeeScript.
 
 In Norway, both our projects in different parts of Posten Norge allow and encourage CoffeeScript used as a client side language.
 
-In terms of adoption and maturity, you will not be alone in relying on CoffeeScript for your production code. Others also rely heavily upon it! 
+In terms of adoption and maturity, you will not be alone in relying on CoffeeScript for your production code. Others also rely heavily upon it!
 
 ## Drawbacks
   - Another technology in your portfolio
