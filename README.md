@@ -10,16 +10,16 @@ So, how did this happen? How did we end up with a "language of the web" which is
 Enter CoffeeScript. CoffeeScript is one of several languages to emerge the recent years that compile into JavaScript. CoffeeScript is described as "a little language that compiles into JavaScript." It fixes several bad design features of JavaScript. Additionally, it lends features and syntax from popular languages such as Python and Ruby, giving programmers the opportunity to write simpler and more expressive code.
 
 ## Feature #win
-  - Generates fully humanly readable javascript
+  - Generates fully human readable javascript
   - Readability features and conciseness: significant indentation, suffixable operators, ...
   - Scoping (global variables)
   - Classes
-  - Compiles to effective JavaScript – in some cases more effective JavaScript than you would probably write yourself unless you know all the tricks.
+  - Compiles to effective JavaScript – in some cases more effective JavaScript than you would probably write yourself unless you know all the tricks
 
 
 ### It's JavaScript
 
-One of the great features of CoffeeScript is that it compiles down to fully readable JavaScript. Because it's just JavaScript, it integrates well with existing JavaScript frameworks like jQuery and your legacy JavaScript code.
+One of the great features of CoffeeScript is that it compiles down to fully readable JavaScript. And because it's just JavaScript, it integrates well with existing JavaScript frameworks like jQuery and your legacy JavaScript code.
 
 Example of trivial use of jQuery:
     
@@ -37,7 +37,7 @@ Example of trivial use of jQuery:
 
 ### Readability 
 
-One drawback with JavaScript is all its paranthesis and curly braces, because they can really affect the conciceness and readability of the code. In CoffeeScript, indentation is significant (like Python) and this helps us remove a lot of those unneccesary characters. Just look at the following JavaScript code:
+One drawback with JavaScript is all its paranthesis and curly braces, because they can really affect the conciceness and readability of the code. In CoffeeScript, indentation is significant (like in Python) and this helps us remove a lot of those unneccesary characters. Just look at the following JavaScript code:
 
     if (url) {
       $.get(url, function(data){
@@ -55,13 +55,13 @@ In CoffeeScript the same can be written like this
     else
       $("#error").show()
 
-It is not too hard to see that the CoffeeScript code has less noise and, it is easier to read what is actually going on.
+It's not too difficult to see that the CoffeeScript code has less noise and it is easier to view what is actually going on.
 
-CoffeeScript has several other options that improves readability of your code. Among these are:
+CoffeeScript has several other options that improve readability of your code. Among these are:
 
 #### Suffixable operators
 
-Like Ruby, CoffeeScript lets you suffix `if` and `unless` operators so logical expressions can be read much like a regular sentence.
+Like Ruby, CoffeeScript lets you suffix `if` and `unless` operators so that logical expressions can be read much like a regular sentence.
 
     keep_going = true
 
@@ -70,7 +70,7 @@ Like Ruby, CoffeeScript lets you suffix `if` and `unless` operators so logical e
 
 ### Classes
 
-JavaScript's way to implement objects with prototypes can be quite cumbersome, and CoffeeScripts cleans this up a bit. Using the `class` keyword we can easily create classes with inheritance and instantiate them:
+JavaScript's way to implement objects with prototypes can be quite cumbersome, and CoffeeScript cleans this up a bit. Using the `class` keyword we can easily create classes with inheritance and instantiate them:
 
     class Vehicle
       constructor: (@color) ->
@@ -97,7 +97,7 @@ JavaScript's way to implement objects with prototypes can be quite cumbersome, a
 
 CoffeeScript has been gaining strong momentum the last few years. Out of more than 2700 respondents in the annual JavaScript Developer Survey, 29% use a language that compile to JavaScript. Of these languages, CoffeeScript is by far the most popular, used by 82%.
 
-CoffeeScript has been the standard client code language in the widely used Ruby on Rails framework as of 3.1 released in August 2011. The popular distributed version control hosting provider GitHub state that all new JavaScript must be written in CoffeeScript.
+CoffeeScript has been the standard client code language in the widely used Ruby on Rails framework as of 3.1, which was released in August 2011. The popular distributed version control hosting provider GitHub states that all new JavaScript must be written in CoffeeScript.
 
 In Norway, both our projects in different parts of Posten Norge allow and encourage CoffeeScript used as a client side language.
 
@@ -105,11 +105,11 @@ In terms of adoption and maturity, you will not be alone in relying on CoffeeScr
 
 ## Drawbacks
 
-There are some backsides to introducing a new language in your enterprise project.
+There are some drawbacks to introducing a new language in your enterprise project.
 
-First, there is the cost of knowledge. Each time you introduce a new technology, it represents another skill your team will need to maintain over time. In this case, the cost shouldn't be too bad, as CoffeeScript is similar too JavaScript. In any case, you may choose to compile it to JavaScript and maintain it as such.
+First, there is the cost of knowledge. Each time you introduce a new technology, it represents another skill your team will need to maintain over time. In this case, the cost shouldn't be too bad. CoffeeScript is similar too JavaScript, and in any case, you may choose to compile it to JavaScript and maintain it as such.
 
-Using a compiled language will make using a debugger harder, as you will be debugging the compiled code. There are initiatives underway to make a source mapper for CoffeeScript, which will allow debugging CoffeeScript directly, but as of writing nothing has been released.
+The use of a debugger is more difficult when developing with a compiled language, as you will be debugging the compiled code. There are ongoing initiatives to develop a source mapper for CoffeeScript, which will allow debugging CoffeeScripts directly, but at the time this section was written, nothing had yet been released.
 
 Lastly, you will need to fit CoffeeScript into your build process. This will be discussed in the following section.
 
@@ -123,3 +123,10 @@ win!
 
 ## Resources
   - http://coffeescript.org
+
+!-- Generell input fra Christoffer --!
+- Merker fort at det er flere enn 1 som har skrevet på den. Kunne vært greit med konsekvent bruk av enten feks "it is" eller "it's"
+- Gjerne konsekvent bruk av enten "using" eller "to use". Et anent eksempel er: "CoffeeScript has been gaining strong momentum", mens get et anent sued er bruit: "In Norway, both our projects in different parts of Posten Norge allow and encourage "
+- Mye komma. For lesbarhet kan det være vel så bra å dele opp i flere setninger.
+- Kan godt ha med pros/cons av å introdusere CoffeeScript for "nye" JavaScript-utviklere, som kanskje ikke har full oversikt over "the Bad Parts".
+Jeg liker innholdet!
