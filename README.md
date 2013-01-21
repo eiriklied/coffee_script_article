@@ -25,11 +25,7 @@ array iteration, accidental global scoping and so on.
 
 
 ## Feature #win
-  - Generates fully human readable javascript
   - Readability features and conciseness: significant indentation, suffixable operators, ...
-  - Scoping (global variables)
-  - Classes
-
 
 ### It's JavaScript
 
@@ -109,13 +105,18 @@ JavaScript's way to implement objects with prototypes can be quite cumbersome, a
 
 ## Maturity
 
-CoffeeScript has been gaining strong momentum the last few years. Out of more than 2700 respondents in the annual JavaScript Developer Survey, 29% use a language that compile to JavaScript. Of these languages, CoffeeScript is by far the most popular, used by 82%.
+CoffeeScript has been gaining strong momentum the last few years. Out of more than 2700 respondents in the annual
+JavaScript Developer Survey, 24% of respondents state that they use CoffeeScript.
 
-CoffeeScript has been the standard client code language in the widely used Ruby on Rails framework as of 3.1, which was released in August 2011. The popular distributed version control hosting provider GitHub states that all new JavaScript must be written in CoffeeScript.
+
+CoffeeScript is heavily backed in the Ruby on Rails community. It has been the the standard client code language in
+the framework as of version 3.1, which was released in August 2011. Following this, among others GitHub stating in their
+implementation guidelines that all new in-house client code must be written in CoffeeScript.
 
 In Norway, both our projects in different parts of Posten Norge allow and encourage CoffeeScript used as a client side language.
 
-In terms of adoption and maturity, you will not be alone in relying on CoffeeScript for your production code. Others also rely heavily upon it!
+In terms of adoption and maturity, you will not be alone in using CoffeeScript for your production code. Others
+also rely heavily upon it!
 
 ## Drawbacks
 
