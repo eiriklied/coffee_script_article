@@ -1,4 +1,4 @@
-# Coffeescript for the enterprise
+# Coffeescript
 By Jøran Lillesand and Eirik Lied
 
 ## Intro
@@ -8,6 +8,12 @@ JavaScript is gaining ever more popularity. New frameworks are popping up right 
 So, how did this happen? How did we end up with a "language of the web" which is widely regarded to be, plainly put, a rather poorly designed language? At the time, there was quite a lot of hype around Java in the browser (really!). Its designer, Brendan Eich of Netscape, was ordered to make a little scripting language for the browser based on LiveScript – and to make it "Javaish." This way, we ended up with a language intended for simple web-scripting, which kinda looks like Java, but at the same time is nothing like Java.
 
 Enter CoffeeScript. CoffeeScript is one of several languages to emerge the recent years that compile into JavaScript. CoffeeScript is described as "a little language that compiles into JavaScript." It fixes several bad design features of JavaScript. Additionally it lends features and syntax from popular languages such as Python and Ruby, giving programmers the opportunity to write simpler and more expressive code.
+
+## Why?
+  - Can be used with existing JavaScript code
+  - Simpler syntax than JavaScript: easier to read and write
+  - Less error prone (eg scoping)
+  - Generally compiles to high performant JavaScript
 
 ## Feature #win
   - Generates fully humanly readable javascript
@@ -111,12 +117,7 @@ First, there is the cost of knowledge. Each time you introduce a new technology,
 
 Using a compiled language will make using a debugger harder, as you will be debugging the compiled code. There are initiatives underway to make a source mapper for CoffeeScript, which will allow debugging CoffeeScript directly, but as of writing nothing has been released.
 
-Lastly, you will need to fit CoffeeScript into your build process. This will be discussed in the following section.
-
-## Fitting it into your build process
-  - Wro4J
-  - JAWR
-  - Et eller anna på .NET
+Lastly, you will need to fit CoffeeScript into your build process. Depending on your platform, there are several tools available for this. TODO: SKRIV SKIKKELIG
 
 ## Conclusion
 win!
