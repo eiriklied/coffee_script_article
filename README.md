@@ -47,7 +47,7 @@ Example of trivial use of jQuery:
 
 ### Readability 
 
-One drawback with JavaScript is all its paranthesis and curly braces, because they can really affect the conciceness and readability of the code. In CoffeeScript, indentation is significant (like in Python) and this helps us remove a lot of those unneccesary characters. Just look at the following JavaScript code:
+One drawback with JavaScript is all its parenthesis and curly braces, because they can really affect the conciseness and readability of the code. In CoffeeScript, indentation is significant (like in Python) and this helps us remove a lot of those unnecessary characters. Just look at the following JavaScript code:
 
     if (url) {
       $.get(url, function(data){
@@ -124,7 +124,7 @@ There are some drawbacks to introducing a new language in your enterprise projec
 
 First, there is the cost of knowledge. Each time you introduce a new technology, it represents another skill your team will need to maintain over time. In this case, the cost shouldn't be too bad. CoffeeScript is similar too JavaScript, and in any case, you may choose to compile it to JavaScript and maintain it as such.
 
-The use of a debugger is more difficult when developing with a compiled language, as you will be debugging the compiled code. There are ongoing initiatives to develop a source mapper for CoffeeScript, which will allow debugging CoffeeScripts directly, but at the time this section was written, nothing had yet been released.
+The use of a debugger is more difficult when developing with a compiled language, as you will be debugging the compiled code. There are ongoing initiatives to develop a source mapper for CoffeeScript, which will allow debugging CoffeeScript's directly, but to date, nothing has yet been released.
 
 Lastly, you will need to fit CoffeeScript into your build process. Depending on your platform, there are several tools available for this. TODO: SKRIV SKIKKELIG
 
