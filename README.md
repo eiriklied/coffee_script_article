@@ -161,6 +161,7 @@ win!
 
 ## Resources
   - http://coffeescript.org
+  - https://github.com/styleguide/javascript
 
 !-- Generell input fra Christoffer --!
 - Merker fort at det er flere enn 1 som har skrevet på den. Kunne vært greit med konsekvent bruk av enten feks "it is" eller "it's"
