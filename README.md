@@ -148,7 +148,7 @@ also rely heavily upon it!
 
 ## Drawbacks
 
-There are some drawbacks to introducing a new language in your enterprise project.
+There are some drawbacks to introducing a new language in your project.
 
 First, there is the cost of knowledge. Each time you introduce a new technology, it represents another skill your team will need to maintain over time. In this case, the cost shouldn't be too bad. CoffeeScript is similar too JavaScript, and in any case, you may choose to compile it to JavaScript and maintain it as such.
 
