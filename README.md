@@ -47,7 +47,7 @@ Example of trivial use of jQuery:
 
 ### Readability 
 
-One drawback with JavaScript is all its parenthesis and curly braces, because they can really affect the conciseness and readability of the code. In CoffeeScript, indentation is significant (like in Python) and this helps us remove a lot of those unnecessary characters. Just look at the following JavaScript code:
+A drawback with JavaScript is all its parenthesis and curly braces, because they can really affect the conciseness and readability of the code. In CoffeeScript, just like Python, indentation is significant. This helps us remove a lot of those unnecessary characters. Just look at the following JavaScript code:
 
     if (url) {
       $.get(url, function(data){
