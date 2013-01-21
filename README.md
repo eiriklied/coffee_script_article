@@ -9,18 +9,26 @@ So, how did this happen? How did we end up with a "language of the web" which is
 
 Enter CoffeeScript. CoffeeScript is one of several languages to emerge the recent years that compile into JavaScript. CoffeeScript is described as "a little language that compiles into JavaScript." It lends features and syntax from popular languages such as Python and Ruby, giving programmers the opportunity to write simpler and more expressive code.
 
-## Why?
-  - Can be used with existing JavaScript code
-  - Simpler syntax than JavaScript: easier to read and write
-  - Less error prone (eg scoping)
-  - Generally compiles to high performant JavaScript
+## Why use CoffeeScript?
+The primary reason for choosing CoffeeScript over JavaScript is the improved syntax. CoffeeScript provides a large
+collection of neat features that allows us to write code that focus on what we want to achieve,
+rather than how we want to achieve it. This gives code that is easier to both read and write.
+
+CoffeeScript compiles to plain old JavaScript. This means that it integrates seamlessly jQuery, Backbone.js,
+Underscore.js and the existing JavaScript code on your project. Introducing CoffeeScript to an existing JavaScript
+codebase is completely viable.
+
+The CoffeeScript compiler produces pretty-printed JavaScript that passes through the JavaScript lint syntax checker
+and validator. This means that output produced by CoffeeScript is likely to behave identically across different
+browsers and browser versions and you avoid weird bugs caused by misplaced semicolons,
+array iteration, accidental global scoping and so on.
+
 
 ## Feature #win
   - Generates fully human readable javascript
   - Readability features and conciseness: significant indentation, suffixable operators, ...
   - Scoping (global variables)
   - Classes
-  - Compiles to effective JavaScript – in some cases more effective JavaScript than you would probably write yourself unless you know all the tricks
 
 
 ### It's JavaScript
