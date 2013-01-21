@@ -25,14 +25,14 @@ Example of trivial use of jQuery:
     
     // JavaScript
     $(function(){
-      var name = "Developer"
-      alert("Hello " + name)
+      var name = "Developer";
+      $("body").append("Hello " + name);
     });
 
     # CoffeeScript
     $ ->
       name = "Developer"
-      alert "Hello #{name}"
+      $("body").append "Hello #{name}"
 
 
 ### Readability 
@@ -57,7 +57,35 @@ In CoffeeScript the same can be written like this
 
 It is not too hard to see that the CoffeeScript code has less noise and, it is easier to read what is actually going on.
 
-CoffeeScript has several other options that improves readability of your code. Among these are:
+CoffeeScript has several other options that improves readability of your code and helps you avoid errors. Among these are:
+
+#### Automatic scoping of variables
+
+When declaring variables in JavaScript you should always be aware of the scopw you declare the variable in. Take the code below:
+
+    var name = "Jim";
+
+    // some other code
+
+    var myFunc = function() {
+      name = "Tom";
+      // other code
+    }
+    myFunc(); // the global variable name is now "Tom"
+
+    
+
+When running the function `myFunc`, the variable `name` now exists in the global scope since we did not write the keyword `var` first.
+
+In CoffeeScript you never have to use `var`. CoffeeScript automatically adds the `var` keyword for you when compiling to JavaScript, so writing the following in CoffeeScript will not override any variables:
+
+    name = "Jim"
+
+    myFunc = ->
+      name = "Tom"
+
+    myFunc() # the global variable name is still "Jim"
+
 
 #### Suffixable operators
 
