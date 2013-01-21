@@ -1,4 +1,4 @@
-# Coffeescript
+# CoffeeScript
 By Jøran Lillesand and Eirik Lied
 
 ## Intro
@@ -106,6 +106,38 @@ Like Ruby, CoffeeScript lets you suffix `if` and `unless` operators so that logi
     alert "Don't stop!" if keepGoing?
     alert "Please stop!" unless keepGoing?
 
+#### Comprehensions
+
+Looping over an array or an object's properties is quite fundamental, and enhancing this experience could really improve the expressiveness in a language. In regular JavaScript you would typically use an oldfashioned for-loop. Underscore.js and jQuery offers functions that can improve the syntax quite a bit, but you still end up with paranthesis and curly braces all over the place. CoffeeScript has this functionality built into the language.
+
+Consider the JavaScript code below, where we loop through and array and extract the names of the cars with a high rating. 
+
+    cars = [
+      {name: 'Volvo', rating: 5},
+      {name: 'Toyota', rating: 4},
+      {name: 'Nissan', rating: 3}
+    ];
+    
+    // loop over the array and collect good cars
+    good = [];
+    for(var i = 0; i < cars.length; ++i) {
+      if (cars[i].rating > 3) {
+        good.push(cars[i].name);
+      }
+    }
+
+
+This is one of the places CoffeeScript really shines. Not only is the corresponding code for looping over the cars short, but its really concise. 
+
+    cars = [
+      {name: 'Volvo', rating: 5}
+      {name: 'Toyota', rating: 4}
+      {name: 'Nissan', rating: 3}
+    ]
+
+    good = (c.name for c in cars when c.rating > 3)
+
+
 ### Classes
 
 JavaScript's way to implement objects with prototypes can be quite cumbersome, and CoffeeScript cleans this up a bit. Using the `class` keyword we can easily create classes with inheritance and instantiate them:
@@ -128,6 +160,8 @@ JavaScript's way to implement objects with prototypes can be quite cumbersome, a
     # will alert "Car driving" and then "red vehicle moved 5 meters"
     myCar.drive()
 
+
+Other features of CoffeeScript worth noting are string interpolation (as seen in the examples), 
 
 
 
