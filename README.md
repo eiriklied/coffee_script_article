@@ -61,7 +61,7 @@ In CoffeeScript the same can be written like this
   
     if url
       $.get url, (data) ->
-        $("#result").html(data)
+        $("#result").html data
     else
       $("#error").show()
 
@@ -83,8 +83,6 @@ When declaring variables in JavaScript you should always be aware of the scopw y
       // other code
     }
     myFunc(); // the global variable name is now "Tom"
-
-    
 
 When running the function `myFunc`, the variable `name` exists in the global scope since we did not write the keyword `var` first.
 
