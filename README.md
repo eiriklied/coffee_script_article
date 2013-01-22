@@ -67,11 +67,11 @@ In CoffeeScript the same can be written like this
 
 It's not too difficult to see that the CoffeeScript code has less noise and it is easier to view what is actually going on.
 
-CoffeeScript has several other options that improves readability of your code and helps you avoid errors. Among these are:
+CoffeeScript has several other options that improves readability of your code and helps you avoid errors. We are going to look at some of them.
 
 #### Automatic scoping of variables
 
-When declaring variables in JavaScript you should always be aware of the scopw you declare the variable in. Take the code below:
+When declaring variables in JavaScript you must always be aware of the scope you declare the variable in. See the code below:
 
     // global variable 'name' declared in another script
     var name = "Jim";
