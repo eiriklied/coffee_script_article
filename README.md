@@ -47,7 +47,7 @@ Example of trivial use of jQuery:
 
 ### Readability 
 
-A drawback with JavaScript is all its parenthesis and curly braces, because they can really affect the conciseness and readability of the code. In CoffeeScript, just like Python, indentation is significant. This helps us remove a lot of those unnecessary characters. Just look at the following JavaScript code:
+A drawback with JavaScript is all its parentheses and curly braces, because they can really affect the conciseness and readability of the code. In CoffeeScript, just like in Python, indentation is significant. This helps us remove a lot of those unnecessary characters. Just look at the following JavaScript code:
 
     if (url) {
       $.get(url, function(data){
@@ -67,7 +67,7 @@ In CoffeeScript the same can be written like this
 
 It's not too difficult to see that the CoffeeScript code has less noise and it is easier to view what is actually going on.
 
-CoffeeScript has several other options that improves readability of your code and helps you avoid errors. We are going to look at some of them.
+CoffeeScript has several other options that improve readability of your code and helps you to avoid errors. We will in the following sections review some of them.
 
 #### Automatic scoping of variables
 
@@ -110,7 +110,7 @@ Like Ruby, CoffeeScript lets you suffix `if` and `unless` operators so that logi
 
 #### Comprehensions
 
-Looping over an array or an object's properties is quite fundamental, and enhancing this experience could really improve the expressiveness in a language. In regular JavaScript you would typically use an oldfashioned for-loop. Underscore.js and jQuery offers functions that can improve the syntax quite a bit, but you still end up with paranthesis and curly braces all over the place. CoffeeScript has this functionality built into the language.
+Looping over an array or an object's properties is quite fundamental, and enhancing this experience could really improve the expressiveness in a language. In regular JavaScript you would typically use an old fashioned for-loop. Underscore.js and jQuery offer functions that can improve the syntax quite a bit, but you still end up with parentheses and curly braces all over the place. CoffeeScript has this functionality built into the language.
 
 Consider the JavaScript code below, where we loop through and array and extract the names of the cars with a high rating. 
 
@@ -142,7 +142,7 @@ This is one of the places CoffeeScript really shines. Not only is the correspond
 
 ### Classes
 
-JavaScript's way to implement objects with prototypes can be quite cumbersome, and CoffeeScript cleans this up a bit. Using the `class` keyword we can easily create classes with inheritance and instantiate them:
+JavaScript's way to implement objects with prototypes can be quite cumbersome, and CoffeeScript cleans this up a bit. Using the `class`-keyword we can easily create classes with inheritance and instantiate them:
 
     class Vehicle
       constructor: (@color) ->
@@ -163,7 +163,7 @@ JavaScript's way to implement objects with prototypes can be quite cumbersome, a
     myCar.drive()
 
 
-Other features of CoffeeScript worth noting are string interpolation (as seen in the examples), 
+Other features of CoffeeScript worth mentioning are string interpolation (as seen in the examples), 
 
 
 
@@ -173,11 +173,10 @@ CoffeeScript has been gaining strong momentum the last few years. Out of more th
 JavaScript Developer Survey, 24% of respondents state that they use CoffeeScript.
 
 
-CoffeeScript is heavily backed in the Ruby on Rails community. It has been the the standard client code language in
-the framework as of version 3.1, which was released in August 2011. Following this, among others GitHub stating in their
+CoffeeScript is heavily backed in the Ruby on Rails community. It has been the standard client framework language as of version 3.1, which was released in August 2011. Among other users are GitHub, who state in their
 implementation guidelines that all new in-house client code must be written in CoffeeScript.
 
-In Norway, both our projects in different parts of Posten Norge allow and encourage CoffeeScript used as a client side language.
+In Norway, both of our projects in different parts of Posten Norge allow and encourage CoffeeScript used as a client side language.
 
 In terms of adoption and maturity, you will not be alone in using CoffeeScript for your production code. Others
 also rely heavily upon it!
@@ -204,4 +203,9 @@ win!
 - Gjerne konsekvent bruk av enten "using" eller "to use". Et anent eksempel er: "CoffeeScript has been gaining strong momentum", mens get et anent sued er bruit: "In Norway, both our projects in different parts of Posten Norge allow and encourage "
 - Mye komma. For lesbarhet kan det være vel så bra å dele opp i flere setninger.
 - Kan godt ha med pros/cons av å introdusere CoffeeScript for "nye" JavaScript-utviklere, som kanskje ikke har full oversikt over "the Bad Parts".
-Jeg liker innholdet!
+- Jeg liker innholdet!
+
+!--- Oppdatert input fra Christoffer -------!
+- Være konsekvent på om get skal burkes "we", "the" eller "ones". Feks: "CoffeeScript improves your/the/ones code".
+- Skal være en # til på seksjonen "Classes"? Er ikke den innenfor "Readability"?
+
