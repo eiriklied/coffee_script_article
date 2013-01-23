@@ -61,18 +61,19 @@ In CoffeeScript the same can be written like this
   
     if url
       $.get url, (data) ->
-        $("#result").html(data)
+        $("#result").html data
     else
       $("#error").show()
 
 It's not too difficult to see that the CoffeeScript code has less noise and it is easier to view what is actually going on.
 
-CoffeeScript has several other options that improves readability of your code and helps you avoid errors. Among these are:
+CoffeeScript has several other options that improves readability of your code and helps you avoid errors. We are going to look at some of them.
 
 #### Automatic scoping of variables
 
-When declaring variables in JavaScript you should always be aware of the scopw you declare the variable in. Take the code below:
+When declaring variables in JavaScript you must always be aware of the scope you declare the variable in. See the code below:
 
+    // global variable 'name' declared in another script
     var name = "Jim";
 
     // some other code
@@ -83,25 +84,26 @@ When declaring variables in JavaScript you should always be aware of the scopw y
     }
     myFunc(); // the global variable name is now "Tom"
 
-    
-
-When running the function `myFunc`, the variable `name` now exists in the global scope since we did not write the keyword `var` first.
+When running the function `myFunc`, the variable `name` exists in the global scope since we did not write the keyword `var` first.
 
 In CoffeeScript you never have to use `var`. CoffeeScript automatically adds the `var` keyword for you when compiling to JavaScript, so writing the following in CoffeeScript will not override any variables:
-
+    
+    # declaring a variable 'name' somewhere
     name = "Jim"
 
+    # somewhere else we declare a function myFunc
     myFunc = ->
       name = "Tom"
+      # other code
 
-    myFunc() # the global variable name is still "Jim"
+    myFunc() # the first declared variable 'name' is still "Jim"
 
 
 #### Suffixable operators
 
 Like Ruby, CoffeeScript lets you suffix `if` and `unless` operators so that logical expressions can be read much like a regular sentence.
 
-    keep_going = true
+    keepGoing = true
 
     alert "Don't stop!" if keepGoing?
     alert "Please stop!" unless keepGoing?
