@@ -139,9 +139,9 @@ This is one of the places CoffeeScript really shines. Not only is the correspond
     good = (c.name for c in cars when c.rating > 3)
 
 
-### Classes
+#### Classes
 
-Implementing objects with prototypes in JavaScript can be a bit cumbersome. CoffeeScript makes it way easier. Using the `class`-keyword we can easily create classes with inheritance and instantiate them:
+Implementing object orientation with prototypes in JavaScript can be a bit cumbersome. CoffeeScript makes it way easier. Using the `class`-keyword we can easily create classes with inheritance and instantiate them:
 
     class Vehicle
       constructor: (@color) ->
