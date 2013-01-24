@@ -3,18 +3,18 @@ By Jøran Lillesand and Eirik Lied
 
 ## Intro
 
-JavaScript is gaining ever more popularity. New frameworks are popping up right and left and single page apps are emerging as a standard on the web. But still, a lot of developers struggle with doing The Right Thing in JavaScript. So much so, that the book JavaScript: The Good Parts, on how to use, and more importantly how not to use, JavaScript is regarded as a must-read for developers getting started with the language.
+JavaScript is gaining ever more popularity. New frameworks are popping up right and left and single page apps are emerging as a standard on the web. But still, a lot of developers struggle with doing _The Right Thing_ in JavaScript. So much so, that the book JavaScript: The Good Parts, on how to use, and more importantly how not to use, JavaScript is regarded as a must-read for developers getting started with the language.
 
-So, how did this happen? How did we end up with a "language of the web" which is widely regarded to be, plainly put, a rather poorly designed language? At the time, there was quite a lot of hype surrounding Java in the browser (really!). JavaScript's designer, Brendan Eich of Netscape, was ordered to design a small scripting language adapted for the browser based on LiveScript – and to make it "Javaish." In this way, we ended up with a language intended for simple web-scripting, which today is used in large mission-critical applications. It kinda looks like Java. But at the same time is nothing like Java.
+So, how did this happen? How did we end up with a "language of the web" which is widely regarded to be, plainly put, a rather quirky language? At the time of Javascript's creation, there was quite a lot of hype surrounding Java in the browser (really!). JavaScript's designer, Brendan Eich of Netscape, was ordered to create a scripting language adapted for the browser based on LiveScript – and to make it "Javaish." This way, we ended up with a language intended for simple web-scripting, which today is used in large mission-critical applications. That kinda looks like Java. But at the same time is nothing like Java.
 
-Enter CoffeeScript. CoffeeScript is one of several languages to emerge the recent years that compile into JavaScript. It is described as "a little language that compiles into JavaScript." CoffeeScript lends features and syntax from popular languages such as Python and Ruby, giving programmers the opportunity to write simpler and more expressive code.
+Enter CoffeeScript. CoffeeScript is one of several languages to emerge the recent years that compile into JavaScript. It is described as "a little language that compiles into JavaScript." CoffeeScript lends features and syntax from popular languages such as Python and Ruby, giving programmers the opportunity to write more idiomatic and expressive code.
 
 ## Why use CoffeeScript?
 The primary reason for choosing CoffeeScript over JavaScript is the improved syntax. CoffeeScript provides a large
 collection of neat features that allows us to write code that focus on what we want to achieve,
 rather than how we want to achieve it. The result is code that is easier to both read and write.
 
-CoffeeScript compiles to plain old JavaScript. This means that it seamlessly integrates jQuery, Backbone.js,
+CoffeeScript compiles to plain old JavaScript. This means that it seamlessly works with jQuery, Backbone.js,
 Underscore.js and the existing JavaScript code in your project. Introducing CoffeeScript to an existing JavaScript
 codebase is completely viable.
 
@@ -23,16 +23,15 @@ and validator. This means that the output produced by CoffeeScript is likely to 
 browsers and browser versions and you avoid weird bugs caused by misplaced semicolons,
 array iteration, accidental global scoping and so on.
 
-
-## Feature #win
-  - Readability features and conciseness: significant indentation, suffixable operators, ...
+## What's great about CoffeeScript?
+Finally time for some code! The following sections show a few of the features CoffeeScript brings to the table.
 
 ### It's JavaScript
 
-One of the great features of CoffeeScript is that it compiles down to fully readable JavaScript. And because it's just JavaScript, it integrates well with existing JavaScript frameworks like jQuery and your legacy JavaScript code.
+One of the great features of CoffeeScript is that it compiles down to fully readable JavaScript. And because it's just JavaScript, it works seamlessly with existing JavaScript frameworks like jQuery and your legacy JavaScript code.
 
 Example of trivial use of jQuery:
-    
+
     // JavaScript
     $(function(){
       var name = "Developer";
@@ -65,9 +64,7 @@ In CoffeeScript the same can be written like this
     else
       $("#error").show()
 
-It's not too difficult to see that the CoffeeScript code has less noise and it is easier to view what is actually going on.
-
-CoffeeScript has several other options that improve readability of your code and helps you to avoid errors. We will in the following sections review some of them.
+It's not too difficult to see that the CoffeeScript code has less noise and it is easier to see what is actually going on – at least once you get used to it.
 
 #### Automatic scoping of variables
 
@@ -98,6 +95,8 @@ In CoffeeScript you never have to use `var`. CoffeeScript automatically adds the
 
     myFunc() # the first declared variable 'name' is still "Jim"
 
+If you want to overwrite variables or assign them to the global scope in CoffeeScript, you will have to do so explicitly.
+
 
 #### Suffixable operators
 
@@ -110,7 +109,7 @@ Like Ruby, CoffeeScript lets you suffix `if` and `unless` operators so that logi
 
 #### Comprehensions
 
-Looping over an array or an object's properties is quite fundamental, and enhancing this experience could really improve the expressiveness in a language. In regular JavaScript you would typically use an old fashioned for-loop. Underscore.js and jQuery offer functions that can improve the syntax quite a bit, but you still end up with parentheses and curly braces all over the place. CoffeeScript has this functionality built into the language.
+Looping over an array or an object's properties is fundamental, and enhancing it really improves the expressiveness in a language. In regular JavaScript you would typically use an old fashioned for-loop. Underscore.js and jQuery offer functions that can improve the syntax quite a bit, but you still end up with parentheses and curly braces all over the place. CoffeeScript has this functionality built into the language.
 
 Consider the JavaScript code below, where we loop through and array and extract the names of the cars with a high rating. 
 
@@ -142,7 +141,7 @@ This is one of the places CoffeeScript really shines. Not only is the correspond
 
 ### Classes
 
-JavaScript's way to implement objects with prototypes can be quite cumbersome, and CoffeeScript cleans this up a bit. Using the `class`-keyword we can easily create classes with inheritance and instantiate them:
+Implementing objects with prototypes in JavaScript can be a bit cumbersome. CoffeeScript makes it way easier. Using the `class`-keyword we can easily create classes with inheritance and instantiate them:
 
     class Vehicle
       constructor: (@color) ->
@@ -163,15 +162,10 @@ JavaScript's way to implement objects with prototypes can be quite cumbersome, a
     myCar.drive()
 
 
-Other features of CoffeeScript worth mentioning are string interpolation (as seen in the examples), 
-
-
-
 ## Maturity
 
 CoffeeScript has been gaining strong momentum the last few years. Out of more than 2700 respondents in the annual
-JavaScript Developer Survey, 24% of respondents state that they use CoffeeScript.
-
+JavaScript Developer Survey, almost 25% of respondents state that they use CoffeeScript.
 
 CoffeeScript is heavily backed in the Ruby on Rails community. It has been the standard client framework language as of version 3.1, which was released in August 2011. Among other users are GitHub, who state in their
 implementation guidelines that all new in-house client code must be written in CoffeeScript.
