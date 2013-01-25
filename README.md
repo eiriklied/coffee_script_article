@@ -96,6 +96,21 @@ oneToNine = (i++ while i < 10)
 alert(oneToNine) # oneToNine is 1,2,3,4,5,6,7,8,9
 ```
 
+### Block strings
+
+Most programmers who have tried putting HTML templates inside their JavaScript files knows how tedious this can be.
+Block strings allow you to easily create large, multiline strings that preserve line breaks and formatting.
+
+```
+template = """
+  <section class="main">
+    <p>CoffeeScript is fun.</p>
+    <p>It really is!</p>
+  </section>
+"""
+```
+
+
 ### Classes
 
 Implementing object orientation with prototypes in JavaScript can cumbersome. CoffeeScript makes it way easier. Using the `class` keyword we can easily create classes and inheritance.
