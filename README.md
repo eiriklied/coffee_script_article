@@ -32,17 +32,9 @@ One of the great features of CoffeeScript is that it compiles down to fully read
 
 Example of trivial use of jQuery:
 
-    // JavaScript
-    $(function(){
-      var name = "Developer";
-      $("body").append("Hello " + name);
-    });
+	![Trivial jQuery with JavaScript(images/01_trivial_use.js.png)
 
-    # CoffeeScript
-    $ ->
-      name = "Developer"
-      $("body").append "Hello #{name}"
-
+	![Trivial jQuery with CoffeeScript(images/01_trivial_use.coffee.png)
 
 ### Readability 
 
@@ -198,11 +190,7 @@ We feel that this is an investment that will pay off over time. In the long run 
 !-- Generell input fra Christoffer --!
 - Merker fort at det er flere enn 1 som har skrevet på den. Kunne vært greit med konsekvent bruk av enten feks "it is" eller "it's"
 - Gjerne konsekvent bruk av enten "using" eller "to use". Et anent eksempel er: "CoffeeScript has been gaining strong momentum", mens get et anent sued er bruit: "In Norway, both our projects in different parts of Posten Norge allow and encourage "
-- Mye komma. For lesbarhet kan det være vel så bra å dele opp i flere setninger.
-- Kan godt ha med pros/cons av å introdusere CoffeeScript for "nye" JavaScript-utviklere, som kanskje ikke har full oversikt over "the Bad Parts".
-- Jeg liker innholdet!
 
 !--- Oppdatert input fra Christoffer -------!
 - Være konsekvent på om get skal burkes "we", "the" eller "ones". Feks: "CoffeeScript improves your/the/ones code".
-- Skal være en # til på seksjonen "Classes"? Er ikke den innenfor "Readability"?
 
