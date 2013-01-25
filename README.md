@@ -183,7 +183,8 @@ First, there is the cost of knowledge. Each time you introduce a new technology,
 
 The use of a debugger is more difficult when developing with a compiled language, as you will be debugging the compiled code. There are ongoing initiatives to develop a source mapper for CoffeeScript, which will allow debugging CoffeeScript's directly, but to date, nothing has yet been released.
 
-Lastly, you will need to fit CoffeeScript into your build process. Depending on your platform, there are several tools available for this. TODO: Nevn WRO4j, JAWR og Mindscape Web Workbench.
+Lastly, you will need to find a way to fit CoffeeScript into your build process. Depending on your platform, there are several tools available for this.
+For Java, this can be solved quite easily with tools such as wro4j and JAWR. For .NET both SquishIt.CoffeeScript and Mindscape Web Workbench are good choices.
 
 ## Conclusion
 win!
