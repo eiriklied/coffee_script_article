@@ -71,7 +71,6 @@ CoffeeScript lets you suffix `if` and `unless` operators so that logical express
 
 ![Suffixable operators](images/04_suffixable.coffee.png)
 
-
 ### Comprehensions
 
 Looping over an array or an object's properties is fundamental in almost any language, and enhancing it really improves expressiveness. In regular JavaScript you would typically use an old fashioned for-loop.
@@ -85,6 +84,17 @@ This is one of the places CoffeeScript really shines. Note how the consise code 
 
 ![Array iteration in CoffeeScript](images/05_comprehensions.coffee.png)
 
+### (Almost) everything is an expression
+
+Almost everything you write in CoffeeScript can return something. This is true for loops, `if` statements, `switch case` statements – and almost anything else.
+
+Consider, for example, the following.
+
+```
+i = 1
+oneToNine = (i++ while i < 10)
+alert(oneToNine) # oneToNine is 1,2,3,4,5,6,7,8,9
+```
 
 ### Classes
 
