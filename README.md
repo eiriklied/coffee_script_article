@@ -32,7 +32,7 @@ One of the great features of CoffeeScript is that it compiles down to fully read
 
 Example of trivial use of jQuery:
 
-![Trivial jQuery with JavaScript](images/01_trivial_use.js.png "Trivial JavaScript")
+![Trivial jQuery with JavaScript](images/01_trivial_use.js.png)
 
 ![Trivial jQuery with CoffeeScript](images/01_trivial_use.coffee.png)
 
@@ -40,119 +40,54 @@ Example of trivial use of jQuery:
 
 A drawback with JavaScript is all its parentheses and curly braces, because they can really affect the conciseness and readability of the code. In CoffeeScript, just like in Python, indentation is significant. This helps us remove a lot of those unnecessary characters. Just look at the following JavaScript code:
 
-    if (url) {
-      $.get(url, function(data){
-        return $("#result").html(data);
-      });
-    } else {
-      $("#error").show();
-    }
+![Readability JavaScript](images/02_readability.js.png)
 
-In CoffeeScript the same can be written like this
-  
-    if url
-      $.get url, (data) ->
-        $("#result").html data
-    else
-      $("#error").show()
+In CoffeeScript the same can be written as:
 
-It's not too difficult to see that the CoffeeScript code has less noise and it is easier to see what is actually going on – at least once you get used to it.
+![Readability CoffeeScript](images/02_readability.coffee.png)
 
-#### Automatic scoping of variables
+It's not too difficult to see that the CoffeeScript code has less noise and makes it easier to see what's going on once you get used to the syntax.
+
+### Automatic scoping of variables
 
 When declaring variables in JavaScript you must always be aware of the scope you declare the variable in. See the code below:
 
-    // global variable 'name' declared in another script
-    var name = "Jim";
-
-    // some other code
-
-    var myFunc = function() {
-      name = "Tom";
-      // other code
-    }
-    myFunc(); // the global variable name is now "Tom"
+![Scoping in JavaScript](images/03_scoping.js.png)
 
 When running the function `myFunc`, the variable `name` exists in the global scope since we did not write the keyword `var` first.
 
 In CoffeeScript you never have to use `var`. CoffeeScript automatically adds the `var` keyword for you when compiling to JavaScript, so writing the following in CoffeeScript will not override any variables:
-    
-    # declaring a variable 'name' somewhere
-    name = "Jim"
 
-    # somewhere else we declare a function myFunc
-    myFunc = ->
-      name = "Tom"
-      # other code
-
-    myFunc() # the first declared variable 'name' is still "Jim"
+![Scoping in JavaScript](images/03_scoping.coffee.png)
 
 If you want to overwrite variables or assign them to the global scope in CoffeeScript, you will have to do so explicitly.
 
 
-#### Suffixable operators
+### Suffixable operators
 
-Like Ruby, CoffeeScript lets you suffix `if` and `unless` operators so that logical expressions can be read much like a regular sentence.
+CoffeeScript lets you suffix `if` and `unless` operators so that logical expressions can be read much like a regular sentence.
 
-    keepGoing = true
+![Suffixable operators](images/04_suffixable.coffee.png)
 
-    alert "Don't stop!" if keepGoing?
-    alert "Please stop!" unless keepGoing?
-
-#### Comprehensions
+### Comprehensions
 
 Looping over an array or an object's properties is fundamental, and enhancing it really improves the expressiveness in a language. In regular JavaScript you would typically use an old fashioned for-loop. Underscore.js and jQuery offer functions that can improve the syntax quite a bit, but you still end up with parentheses and curly braces all over the place. CoffeeScript has this functionality built into the language.
 
 Consider the JavaScript code below, where we loop through and array and extract the names of the cars with a high rating. 
 
-    cars = [
-      {name: 'Volvo', rating: 5},
-      {name: 'Toyota', rating: 4},
-      {name: 'Nissan', rating: 3}
-    ];
-    
-    // loop over the array and collect good cars
-    good = [];
-    for(var i = 0; i < cars.length; ++i) {
-      if (cars[i].rating > 3) {
-        good.push(cars[i].name);
-      }
-    }
+![Array iteration in JavaScript](images/05_comprehensions.js.png)
 
 
 This is one of the places CoffeeScript really shines. Not only is the corresponding code for looping over the cars short, but its really concise. 
 
-    cars = [
-      {name: 'Volvo', rating: 5}
-      {name: 'Toyota', rating: 4}
-      {name: 'Nissan', rating: 3}
-    ]
-
-    good = (c.name for c in cars when c.rating > 3)
+![Array iteration in CoffeeScript](images/05_comprehensions.coffee.png)
 
 
-#### Classes
+### Classes
 
 Implementing object orientation with prototypes in JavaScript can be a bit cumbersome. CoffeeScript makes it way easier. Using the `class`-keyword we can easily create classes with inheritance and instantiate them:
 
-    class Vehicle
-      constructor: (@color) ->
-
-      drive: (meters) ->
-        alert "#{@color} vehicle moved #{meters} meters"
-
-    class Car extends Vehicle
-      # override the drive method in subclass
-      drive: ->
-        alert "Car driving"
-        super 5
-
-    
-    myCar = new Car "red"
-    
-    # will alert "Car driving" and then "red vehicle moved 5 meters"
-    myCar.drive()
-
+![Object orientation](images/06_classes.coffee.png)
 
 ## Maturity
 
@@ -182,15 +117,3 @@ For Java, this can be solved quite easily with tools such as wro4j and JAWR. For
 As with any new technology there are trade-offs to consider if you want to introduce CoffeeScript into your project.
 While it can be argued that CoffeeScript is pretty much like JavaScript, only simpler in most aspects, it will be another tool that your developers will have to master.
 We feel that this is an investment that will pay off over time. In the long run you will have more expressive code that will be easier to understand and maintain – and a lot of fun to write!
-
-## Resources
-  - http://coffeescript.org
-  - https://github.com/styleguide/javascript
-
-!-- Generell input fra Christoffer --!
-- Merker fort at det er flere enn 1 som har skrevet på den. Kunne vært greit med konsekvent bruk av enten feks "it is" eller "it's"
-- Gjerne konsekvent bruk av enten "using" eller "to use". Et anent eksempel er: "CoffeeScript has been gaining strong momentum", mens get et anent sued er bruit: "In Norway, both our projects in different parts of Posten Norge allow and encourage "
-
-!--- Oppdatert input fra Christoffer -------!
-- Være konsekvent på om get skal burkes "we", "the" eller "ones". Feks: "CoffeeScript improves your/the/ones code".
-
