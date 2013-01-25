@@ -187,7 +187,9 @@ Lastly, you will need to find a way to fit CoffeeScript into your build process.
 For Java, this can be solved quite easily with tools such as wro4j and JAWR. For .NET both SquishIt.CoffeeScript and Mindscape Web Workbench are good choices.
 
 ## Conclusion
-win!
+As with any new technology there are trade-offs to consider if you want to introduce CoffeeScript into your project.
+While it can be argued that CoffeeScript is pretty much like JavaScript, only simpler in most aspects, it will be another tool that your developers will have to master.
+We feel that this is an investment that will pay off over time. In the long run you will have more expressive code that will be easier to understand and maintain – and a lot of fun to write!
 
 ## Resources
   - http://coffeescript.org
