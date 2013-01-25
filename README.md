@@ -32,9 +32,9 @@ One of the great features of CoffeeScript is that it compiles down to fully read
 
 Example of trivial use of jQuery:
 
-	![Trivial jQuery with JavaScript(images/01_trivial_use.js.png)
+![Trivial jQuery with JavaScript](images/01_trivial_use.js.png "Trivial JavaScript")
 
-	![Trivial jQuery with CoffeeScript(images/01_trivial_use.coffee.png)
+![Trivial jQuery with CoffeeScript](images/01_trivial_use.coffee.png)
 
 ### Readability 
 
