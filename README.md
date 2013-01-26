@@ -7,7 +7,7 @@ JavaScript is gaining ever more popularity. New frameworks are popping up right 
 
 So, how did this happen? How did we end up with a "language of the web" which is widely regarded to be, plainly put, a rather quirky language? At the time of Javascript's creation, there was quite a lot of hype surrounding Java in the browser (really!). JavaScript's designer, Brendan Eich of Netscape, was ordered to create a scripting language adapted for the browser based on LiveScript – and to make it "Javaish." This way, we ended up with a language intended for simple web-scripting, which today is used in large mission-critical applications. That kinda looks like Java. But at the same time is nothing like Java.
 
-Enter CoffeeScript. CoffeeScript is one of several languages to emerge the recent years that compile into JavaScript. It is described as "a little language that compiles into JavaScript." CoffeeScript lends features and syntax from popular languages such as Python and Ruby, giving programmers the opportunity to write more idiomatic and expressive code.
+Enter CoffeeScript. CoffeeScript is one of several languages to emerge the recent years that compile into JavaScript. CoffeeScript lends features and syntax from popular languages such as Python and Ruby, giving programmers the opportunity to write more idiomatic and expressive code.
 
 ## Why use CoffeeScript?
 The primary reason for choosing CoffeeScript over JavaScript is the improved syntax. CoffeeScript provides a large
@@ -113,7 +113,7 @@ template = """
 
 ### Classes
 
-Implementing object orientation with prototypes in JavaScript can cumbersome. CoffeeScript makes it way easier. Using the `class` keyword we can easily create classes and inheritance.
+Using object orientation based on prototypes in JavaScript can be cumbersome. CoffeeScript makes it way easier. Using the `class` keyword we can easily create classes and inheritance.
 
 ![Object orientation](https://github.com/eiriklied/coffee_script_article/blob/master/images/06_classes.coffee.png?raw=true)
 
@@ -143,7 +143,7 @@ Lastly, you will need to find a way to fit CoffeeScript into your build process.
 For Java, this can be solved quite easily with tools such as wro4j and JAWR. For .NET both SquishIt.CoffeeScript and Mindscape Web Workbench are good choices.
 
 ## Conclusion
-CoffeeScript is not a revolution. It is not a unique, ground-breaking language. Instead it adds a bunch of incremetal
+CoffeeScript is not a revolution. It is not a unique, ground-breaking language. Instead it adds a bunch of incremental
 improvements to JavaScript which, in sum, makes it a lot more pleasant to work with. Experienced JavaScript developers
 should have no problems familiarizing themselves with CoffeeScript and the enhancements it offers. For new developers,
 it will allow them to focus on getting the job done, rather than learning the quirks and pitfalls of JavaScript.
