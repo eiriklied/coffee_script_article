@@ -7,7 +7,7 @@ JavaScript is gaining ever more popularity. New frameworks are popping up right 
 
 So, how did this happen? How did we end up with a "language of the web" which is widely regarded to be, plainly put, a rather quirky language? At the time of Javascript's creation, there was quite a lot of hype surrounding Java in the browser (really!). JavaScript's designer, Brendan Eich of Netscape, was ordered to create a scripting language adapted for the browser based on LiveScript – and to make it "Javaish." This way, we ended up with a language intended for simple web-scripting, which today is used in large mission-critical applications. That kinda looks like Java. But at the same time is nothing like Java.
 
-Enter CoffeeScript. CoffeeScript is one of several languages to emerge the recent years that compile into JavaScript. CoffeeScript lends features and syntax from popular languages such as Python and Ruby, giving programmers the opportunity to write more idiomatic and expressive code.
+Enter CoffeeScript. CoffeeScript is one of several languages to emerge the recent years that compile into JavaScript. CoffeeScript lends features and syntax from popular languages such as Python and Ruby, giving programmers the opportunity to write more consise and expressive code.
 
 ## Why use CoffeeScript?
 The primary reason for choosing CoffeeScript over JavaScript is the improved syntax. CoffeeScript provides a large
