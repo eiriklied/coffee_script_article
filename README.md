@@ -32,20 +32,20 @@ One of the great features of CoffeeScript is that it compiles down to fully read
 
 Example of trivial use of jQuery:
 
-![Trivial jQuery with JavaScript](./images/01_trivial_use.js.png)
+![Trivial jQuery with JavaScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/01_trivial_use.js.png?raw=true)
 
-![Trivial jQuery with CoffeeScript](./images/01_trivial_use.coffee.png)
+![Trivial jQuery with CoffeeScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/01_trivial_use.coffee.png?raw=true)
 
 ### Readability 
 
 Like Java, JavaScript is a verbose language with all its parentheses and curly braces. This can really affect the conciseness and readability of the code.
 CoffeeScript uses significant indentation, which removes a lot of unnecessary characters. Just look at the following JavaScript code:
 
-![Readability JavaScript](images/02_readability.js.png)
+![Readability JavaScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/02_readability.js.png?raw=true)
 
 In CoffeeScript the same can be written as:
 
-![Readability CoffeeScript](images/02_readability.coffee.png)
+![Readability CoffeeScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/02_readability.coffee.png?raw=true)
 
 The CoffeeScript code has less noise and makes it easier to see what's going – at least once you get used to the syntax.
 
@@ -54,13 +54,13 @@ The CoffeeScript code has less noise and makes it easier to see what's going –
 
 One thing that new JavaScript developers often struggle with is scoping. Consider the code below:
 
-![Scoping in JavaScript](images/03_scoping.js.png)
+![Scoping in JavaScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/03_scoping.js.png?raw=true)
 
 When running the function `myFunc`, the variable `name` is modified in the global scope as it was not declared using the `var` keyword.
 
 The CoffeeScript compiler makes sure that all your variables are properly declared within lexical scope. This way, you never have to write `var` yourself.
 
-![Scoping in JavaScript](images/03_scoping.coffee.png)
+![Scoping in JavaScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/03_scoping.coffee.png?raw=true)
 
 If you want to assign variables to the global scope in CoffeeScript, you will have to do so explicitly.
 
@@ -69,7 +69,7 @@ If you want to assign variables to the global scope in CoffeeScript, you will ha
 
 CoffeeScript lets you suffix `if` and `unless` operators so that logical expressions can be read much like a regular sentence.
 
-![Suffixable operators](images/04_suffixable.coffee.png)
+![Suffixable operators](https://github.com/eiriklied/coffee_script_article/blob/master/images/04_suffixable.coffee.png?raw=true)
 
 ### Comprehensions
 
@@ -78,11 +78,11 @@ Underscore.js and jQuery offer functions that can improve the syntax quite a bit
 
 Consider the JavaScript code below, where we loop through and array and extract the names of cars with a high rating.
 
-![Array iteration in JavaScript](images/05_comprehensions.js.png)
+![Array iteration in JavaScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/05_comprehensions.js.png?raw=true)
 
 This is one of the places CoffeeScript really shines. Note how the consise code allows us to focus on what we want to achieve, instead of array semantics.
 
-![Array iteration in CoffeeScript](images/05_comprehensions.coffee.png)
+![Array iteration in CoffeeScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/05_comprehensions.coffee.png?raw=true)
 
 ### (Almost) everything is an expression
 
@@ -115,7 +115,7 @@ template = """
 
 Implementing object orientation with prototypes in JavaScript can cumbersome. CoffeeScript makes it way easier. Using the `class` keyword we can easily create classes and inheritance.
 
-![Object orientation](images/06_classes.coffee.png)
+![Object orientation](https://github.com/eiriklied/coffee_script_article/blob/master/images/06_classes.coffee.png?raw=true)
 
 ## Maturity
 
