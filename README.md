@@ -24,7 +24,7 @@ browsers and browser versions. This helps you avoid those annoying bugs caused b
 array iteration, accidental global scoping and so on.
 
 ## What's great about CoffeeScript?
-Finally time for some code! The following sections show a few of the features CoffeeScript brings to the table.
+Finally, time for some code! The following sections show a few of the features CoffeeScript brings to the table.
 
 ### It's JavaScript
 
@@ -98,7 +98,7 @@ alert(oneToNine) # oneToNine is 1,2,3,4,5,6,7,8,9
 
 ### Block strings
 
-Most programmers who have tried putting HTML templates inside their JavaScript files knows how tedious this can be.
+Most programmers who have tried putting HTML templates inside their JavaScript files know how tedious this can be.
 Block strings allow you to easily create large, multiline strings that preserve line breaks and formatting.
 
 ```
@@ -137,7 +137,7 @@ There are always some drawbacks to introducing a new language in your project.
 
 First, there is the cost of knowledge. Every time you introduce a new technology, it represents another skill your team will need to maintain over time. In this case, the cost shouldn't be too bad. CoffeeScript is similar to JavaScript, and in any case, you may choose to compile it to JavaScript and maintain it as such.
 
-The use of a debugger is more difficult when developing with a compiled language, as you will be debugging the compiled code. There are ongoing initiatives to develop a source mapper for CoffeeScript, which will allow debugging CoffeeScript's directly, but to date, nothing has yet been released.
+The use of a debugger is more difficult when developing with a compiled language, as you will be debugging the compiled code. There are ongoing initiatives to develop a source mapper for CoffeeScript, which will allow debugging CoffeeScripts directly, but to date, nothing has been released.
 
 Lastly, you will need to find a way to fit CoffeeScript into your build process. Depending on your platform, there are several tools available for this.
 For Java, this can be solved quite easily with tools such as wro4j and JAWR. For .NET both SquishIt.CoffeeScript and Mindscape Web Workbench are good choices.
