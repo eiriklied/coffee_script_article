@@ -69,8 +69,6 @@ If you want to assign variables to the global scope in CoffeeScript, you will ha
 
 CoffeeScript lets you suffix `if` and `unless` operators so that logical expressions can be read much like a regular sentence.
 
-TODO: Ta bort spørsmålstegn:
-
 ![Suffixable operators](https://github.com/eiriklied/coffee_script_article/blob/master/images/04_suffixable.coffee.png?raw=true)
 
 ### Comprehensions
