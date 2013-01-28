@@ -1,5 +1,5 @@
 # CoffeeScript
-By Jøran Lillesand and Eirik Lied
+By Jøran Lillesand and Eirik Lied.
 
 ## Intro
 
@@ -24,7 +24,7 @@ browsers and browser versions. This helps you avoid those annoying bugs caused b
 array iteration, accidental global scoping and so on.
 
 ## What's great about CoffeeScript?
-Finally, time for some code! The following sections show a few of the features CoffeeScript brings to the table.
+It's finally time for some code! The following sections show a few of the features CoffeeScript brings to the table.
 
 ### It's JavaScript
 
@@ -113,7 +113,7 @@ template = """
 
 ### Classes
 
-Using object orientation based on prototypes in JavaScript can be cumbersome. CoffeeScript makes it way easier. Using the `class` keyword we can easily create classes and inheritance.
+Using object orientation based on prototypes in JavaScript can be cumbersome. CoffeeScript makes it a lot easier. Using the `class` keyword we can easily create classes and inheritance.
 
 ![Object orientation](https://github.com/eiriklied/coffee_script_article/blob/master/images/06_classes.coffee.png?raw=true)
 
@@ -135,18 +135,17 @@ also rely heavily on it!
 
 There are always some drawbacks to introducing a new language in your project.
 
-First, there is the cost of knowledge. Every time you introduce a new technology, it represents another skill your team will need to maintain over time. In this case, the cost shouldn't be too bad. CoffeeScript is similar to JavaScript, and in any case, you may choose to compile it to JavaScript and maintain it as such.
+Firstly, there is the cost of knowledge. Every time you introduce a new technology, it represents another skill your team will need to maintain over time. In this case, the cost shouldn't be too bad. CoffeeScript is similar to JavaScript, and in any case, you may choose to compile it to JavaScript and maintain it as such.
 
-The use of a debugger is more difficult when developing with a compiled language, as you will be debugging the compiled code. There are ongoing initiatives to develop a source mapper for CoffeeScript, which will allow debugging CoffeeScripts directly, but to date, nothing has been released.
+Secondly, the use of a debugger is more difficult when developing with a compiled language, as you will be debugging the compiled code. There are ongoing initiatives to develop a source mapper for CoffeeScript, which will allow debugging CoffeeScripts directly, but to date, nothing has been released.
 
 Lastly, you will need to find a way to fit CoffeeScript into your build process. Depending on your platform, there are several tools available for this.
-For Java, this can be solved quite easily with tools such as wro4j and JAWR. For .NET both SquishIt.CoffeeScript and Mindscape Web Workbench are good choices.
+For Java, this can be solved quite easily with tools such as wro4j and JAWR. For .NET, both SquishIt.CoffeeScript and Mindscape Web Workbench are good choices.
 
 ## Conclusion
-CoffeeScript is not a revolution. It is not a unique, ground-breaking language. Instead it adds a bunch of incremental
+CoffeeScript is not a revolution. It is not a unique, ground-breaking language. However, it adds a bunch of incremental
 improvements to JavaScript which, in sum, makes it a lot more pleasant to work with. Experienced JavaScript developers
-should have no problems familiarizing themselves with CoffeeScript and the enhancements it offers. For new developers,
-it will allow them to focus on getting the job done, rather than learning the quirks and pitfalls of JavaScript.
+should have no problems familiarizing themselves with CoffeeScript and the enhancements it offers. It will allow new developers to focus on getting the job done, rather than learning the quirks and pitfalls of JavaScript.
 
-As with any new technology there are trade-offs to consider. While it can be argued that CoffeeScript is simple, it will be another tool that your developers will have to master.
+As with any new technology, there are trade-offs to consider. While it can be argued that CoffeeScript is simple, it will be another tool that your developers will have to master.
 We feel that this is an investment that pays off over time. In the long run you will have more expressive code that will be easier to understand and maintain – and a lot of fun to write!
