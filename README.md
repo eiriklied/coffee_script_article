@@ -3,14 +3,14 @@ By Jøran Lillesand and Eirik Lied
 
 ## Intro
 
-JavaScript is gaining ever more popularity. New frameworks are popping up right and left and single page apps are emerging as a standard on the web. However, a lot of developers still struggle to do _The Right Thing_ in JavaScript. So much so, that the book JavaScript: The Good Parts, on how to use, and more importantly how not to use, JavaScript is regarded as a must-read for developers getting acquainted with the language.
+JavaScript is gaining ever more popularity. New frameworks are popping up right and left and single page apps are emerging as a standard on the web. However, a lot of developers still struggle to do _The Right Thing_ in JavaScript. So much so, that the book JavaScript: The Good Parts, on how to use, or more importantly how not to use, JavaScript is regarded as a must-read for developers getting acquainted with the language.
 
 So, what happened? How did we end up with a "language of the web" which is widely regarded to be, plainly put, a rather quirky language? At the time of Javascript's creation, there was quite a lot of hype surrounding Java in the browser (really!). JavaScript's designer, Brendan Eich of Netscape, was ordered to create a scripting language adapted for the browser based on LiveScript – and to make it "Javaish." And that's how we ended up with a language intended for simple web-scripting, which today is used in large mission-critical applications. It kinda looks like Java. At the same time, it is nothing like Java.
 
 Enter CoffeeScript. CoffeeScript is one of several languages to emerge the recent years that compile into JavaScript. CoffeeScript lends features and syntax from popular languages such as Python and Ruby, giving programmers the opportunity to write more concise and expressive code.
 
 ## Why use CoffeeScript?
-The prime benefit when choosing CoffeeScript over JavaScript is the improved syntax. CoffeeScript provides a large
+The prime benefit when choosing CoffeeScript over JavaScript is the expressive syntax. CoffeeScript provides a large
 collection of neat features that allows us to write code focusing on _what_ we want to achieve,
 rather than _how_ we want to achieve it. The result is code that is easier to both read and write.
 
