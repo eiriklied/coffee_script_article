@@ -30,20 +30,25 @@ Finally, time for some code! The following sections show a few of the features C
 
 Since CoffeeScript compiles down to fully readable JavaScript, calling other JavaScript code is easy. Here's an example using jQuery:
 
-![Trivial jQuery with JavaScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/01_trivial_use.js.png?raw=true)
+```
+IMAGE: 01_trivial_use.js.png
+```
 
-![Trivial jQuery with CoffeeScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/01_trivial_use.coffee.png?raw=true)
+
+```
+IMAGE: 01_trivial_use.coffee.png
+```
 
 ### Readability 
 
 Like Java, JavaScript is a verbose language with all its parentheses and curly braces. This tends to affect the conciseness and readability of the code.
 CoffeeScript uses significant indentation, which removes a lot of unnecessary characters. Just look at the following JavaScript code:
 
-![Readability JavaScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/02_readability.js.png?raw=true)
+    IMAGE: 02_readability.js.png
 
 In CoffeeScript the same can be written as:
 
-![Readability CoffeeScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/02_readability.coffee.png?raw=true)
+    IMAGE: 02_readability.coffee.png
 
 The CoffeeScript code has less noise and makes it easier to see what's going – at least once you get used to the syntax.
 
@@ -52,13 +57,13 @@ The CoffeeScript code has less noise and makes it easier to see what's going –
 
 One thing that new JavaScript developers often struggle with is scoping. Consider the code below:
 
-![Scoping in JavaScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/03_scoping.js.png?raw=true)
+    IMAGE: 03_scoping.js.png
 
 When running the function `myFunc`, the variable `name` is modified in the global scope as it was not declared using the `var` keyword.
 
 The CoffeeScript compiler makes sure that all your variables are properly declared within lexical scope. This way, you never have to write `var` yourself.
 
-![Scoping in JavaScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/03_scoping.coffee.png?raw=true)
+    IMAGE: 03_scoping.coffee.png
 
 If you want to assign variables to the global scope in CoffeeScript, you will have to do so explicitly.
 
@@ -67,7 +72,7 @@ If you want to assign variables to the global scope in CoffeeScript, you will ha
 
 CoffeeScript lets you suffix `if` and `unless` operators so that logical expressions can be read much like regular sentences.
 
-![Suffixable operators](https://github.com/eiriklied/coffee_script_article/blob/master/images/04_suffixable.coffee.png?raw=true)
+    IMAGE: 04_suffixable.coffee.png
 
 ### Comprehensions
 
@@ -76,11 +81,11 @@ Underscore.js and jQuery offer functions that can improve the syntax quite a bit
 
 Consider the JavaScript code below, where we loop through an array and extract the names of cars with a high rating.
 
-![Array iteration in JavaScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/05_comprehensions.js.png?raw=true)
+    IMAGE: 05_comprehensions.js.png
 
 This is one of the places CoffeeScript really shines. Note how the concise code allows us to focus on what we want to achieve, instead of array semantics.
 
-![Array iteration in CoffeeScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/05_comprehensions.coffee.png?raw=true)
+    IMAGE: 05_comprehensions.coffee.png
 
 ### (Almost) everything is an expression
 
@@ -88,21 +93,21 @@ Almost everything you write in CoffeeScript can return something. This is true f
 
 Consider, for example, the following.
 
-![Everyhting is an expression](https://github.com/eiriklied/coffee_script_article/blob/master/images/06_everything_expression.js.coffee.png?raw=true)
+    IMAGE: 06_everything_expression.coffee.png
 
 ### Block strings
 
 Most programmers who have tried putting HTML templates inside their JavaScript files know how tedious this can be.
 Block strings allow you to easily create large, multiline strings that preserve line breaks and formatting.
 
-![Block strings](https://github.com/eiriklied/coffee_script_article/blob/master/images/07_block_strings.js.coffee.png?raw=true)
+    IMAGE: 07_block_strings.coffee.png
 
 
 ### Classes
 
 Using object orientation based on prototypes in JavaScript can be cumbersome. CoffeeScript makes it way easier. Using the `class` keyword we can easily create classes and inheritance.
 
-![Object orientation](https://github.com/eiriklied/coffee_script_article/blob/master/images/08_classes.js.coffee.png?raw=true)
+    IMAGE: 08_classes.coffee.png
 
 ## Maturity
 
