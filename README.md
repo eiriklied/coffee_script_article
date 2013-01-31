@@ -102,7 +102,7 @@ Block strings allow you to easily create large, multiline strings that preserve 
 
 Using object orientation based on prototypes in JavaScript can be cumbersome. CoffeeScript makes it way easier. Using the `class` keyword we can easily create classes and inheritance.
 
-![Object orientation](https://github.com/eiriklied/coffee_script_article/blob/master/images/08_classes.coffee.png?raw=true)
+![Object orientation](https://github.com/eiriklied/coffee_script_article/blob/master/images/08_classes.js.coffee.png?raw=true)
 
 ## Maturity
 
