@@ -1,7 +1,8 @@
 
 
+
 cars = [
-  {name: 'Volvo', rating: 5},
+  {name: 'Volvo',  rating: 5},
   {name: 'Toyota', rating: 4},
   {name: 'Nissan', rating: 3}
 ];

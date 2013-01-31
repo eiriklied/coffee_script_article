@@ -1,5 +1,6 @@
 
 
+
 // global variable 'name' declared 
 // in another script
 var name = "Jim";
