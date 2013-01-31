@@ -138,7 +138,7 @@ We feel that this is an investment that pays off over time. In the long run you 
 
 ### BIO
 
-Jøran Vagnby Lillesand is a developer and the practice lead for Web Architecture at Bekk Consulting. He worksThe last few years he has been focusing on building maintainable JavaScript for large enterprise applications. He holds an MSc in computer science from NTNU.
+Jøran Vagnby Lillesand is a developer and the practice lead for Web Architecture at Bekk Consulting. The last few years he has been focusing on building maintainable JavaScript for large enterprise applications. Jøran holds an MSc in computer science from NTNU.
 
-Eirik Lied is a developer at Bekk Consulting and have worked with projects for Posten Norge the last four years. He is passionate about web development and Ruby code. I his spare time, your can find Eirik in the mountain skiing. He has an MSc in computer science from the University of Oslo.
+Eirik Lied is a developer at Bekk Consulting and have worked with projects for Posten Norge the last four years. He is passionate about web development and Ruby code. I his spare time, your can find Eirik in the mountain skiing or coding on Rails apps. He has an MSc in computer science from the University of Oslo.
 
