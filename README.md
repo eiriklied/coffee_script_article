@@ -119,9 +119,7 @@ Using object orientation based on prototypes in JavaScript can be cumbersome. Co
 
 CoffeeScript has been gaining strong momentum the last few years. 25% of more than 2700 respondents in the annual JavaScript Developer Survey state that they use CoffeeScript.
 
-The Ruby on Rails community has embraced CoffeeScript as the way forward for client side code.
-It has been the standard client code language as of version 3.1 (released in August 2011).
-This led sites such as GitHub to use CoffeeScript for all new internal JavaScript development, according to their styleguide.
+The Ruby on Rails community has embraced CoffeeScript as the way forward for client side code, where it has been integrated as a part of the framework for over a year. Furthermore, high traffic sites such as GitHub uses CoffeeScript for all new JavaScript development.
 
 In Norway, both of our projects in different parts of Posten Norge allow and encourage CoffeeScript as client code language.
 
