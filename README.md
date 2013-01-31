@@ -88,21 +88,21 @@ Almost everything you write in CoffeeScript can return something. This is true f
 
 Consider, for example, the following.
 
-![Everyhting is an expression](https://github.com/eiriklied/coffee_script_article/blob/master/images/06_everything_expression.js.coffee.png?raw=true)
+![Everyhting is an expression](https://github.com/eiriklied/coffee_script_article/blob/master/images/06_everything_expression.coffee.png?raw=true)
 
 ### Block strings
 
 Most programmers who have tried putting HTML templates inside their JavaScript files know how tedious this can be.
 Block strings allow you to easily create large, multiline strings that preserve line breaks and formatting.
 
-![Block strings](https://github.com/eiriklied/coffee_script_article/blob/master/images/07_block_strings.js.coffee.png?raw=true)
+![Block strings](https://github.com/eiriklied/coffee_script_article/blob/master/images/07_block_strings.coffee.png?raw=true)
 
 
 ### Classes
 
 Using object orientation based on prototypes in JavaScript can be cumbersome. CoffeeScript makes it way easier. Using the `class` keyword we can easily create classes and inheritance.
 
-![Object orientation](https://github.com/eiriklied/coffee_script_article/blob/master/images/08_classes.js.coffee.png?raw=true)
+![Object orientation](https://github.com/eiriklied/coffee_script_article/blob/master/images/08_classes.coffee.png?raw=true)
 
 ## Maturity
 
