@@ -28,7 +28,7 @@ Finally, time for some code! The following sections show a few of the features C
 
 ### It's JavaScript
 
-Since CoffeeScript compiles down to fully readable JavaScript, calling other JavaScript code is easy. Here's an example where we use jQuery:
+Since CoffeeScript compiles down to fully readable JavaScript, calling other JavaScript code is easy. Here's an example using jQuery:
 
 ![Trivial jQuery with JavaScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/01_trivial_use.js.png?raw=true)
 
@@ -36,7 +36,7 @@ Since CoffeeScript compiles down to fully readable JavaScript, calling other Jav
 
 ### Readability 
 
-Like Java, JavaScript is a verbose language with all its parentheses and curly braces. This can really affect the conciseness and readability of the code.
+Like Java, JavaScript is a verbose language with all its parentheses and curly braces. This tends to affect the conciseness and readability of the code.
 CoffeeScript uses significant indentation, which removes a lot of unnecessary characters. Just look at the following JavaScript code:
 
 ![Readability JavaScript](https://github.com/eiriklied/coffee_script_article/blob/master/images/02_readability.js.png?raw=true)
@@ -65,7 +65,7 @@ If you want to assign variables to the global scope in CoffeeScript, you will ha
 
 ### Suffixable operators
 
-CoffeeScript lets you suffix `if` and `unless` operators so that logical expressions can be read much like a regular sentence.
+CoffeeScript lets you suffix `if` and `unless` operators so that logical expressions can be read much like regular sentences.
 
 ![Suffixable operators](https://github.com/eiriklied/coffee_script_article/blob/master/images/04_suffixable.coffee.png?raw=true)
 
@@ -106,7 +106,7 @@ Using object orientation based on prototypes in JavaScript can be cumbersome. Co
 
 ## Maturity
 
-CoffeeScript has been gaining strong momentum the last few years. 25% of more than 2700 respondents in the annual JavaScript Developer Survey state that they use CoffeeScript.
+Over the last few years, CoffeeScript has gained a strong momentum. 25% of more than 2700 respondents in the annual JavaScript Developer Survey claim to use CoffeeScript.
 
 The Ruby on Rails community has embraced CoffeeScript as the way forward for client side code, where it has been integrated as a part of the framework for over a year. Furthermore, high traffic sites such as GitHub uses CoffeeScript for all new JavaScript development.
 
@@ -138,7 +138,7 @@ We feel that this is an investment that pays off over time. In the long run you 
 
 ### BIO
 
-Jøran Vagnby Lillesand is a developer and the practice lead for Web Architecture at Bekk Consulting. The last few years he has been focusing on building maintainable JavaScript for large enterprise applications. Jøran holds an MSc in computer science from NTNU.
+Jøran Vagnby Lillesand is a developer and the practice lead for Web Architecture at Bekk Consulting and has worked on large applications for Posten Norge the last five years. The last few years he has been focusing on building maintainable JavaScript for large enterprise applications. Jøran holds an MSc in computer science from NTNU.
 
 Eirik Lied is a developer at Bekk Consulting and have worked with projects for Posten Norge the last four years. He is passionate about web development and Ruby code. I his spare time, your can find Eirik in the mountain skiing or coding on Rails apps. He has an MSc in computer science from the University of Oslo.
 
